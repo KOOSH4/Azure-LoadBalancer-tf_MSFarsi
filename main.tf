@@ -760,7 +760,7 @@ resource "azurerm_log_analytics_workspace" "law" {
 # ============================================================================
 
 resource "azurerm_storage_account" "stblc" {
-  name                     = "stblcwsslabsec001"
+  name                     = "stblcwsslabsec002"
   resource_group_name      = var.resource_group_name
   location                 = var.location
   account_tier             = "Standard"
